@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #323832; /* Dark background for header */
+    color: rgb(245, 240, 240);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ebebe9; /* Bright color for header text */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fafaf5; /* Lighter color for header subtitle */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #d3d614; /* Bright hover effect for nav links */
+}
+
+section {
+    padding: 40px 10%;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #eaf4e3; /* Light green background on hover */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.project {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.project h3 {
+    color: #adaf4c; /* Gold color for project headings */
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    color: #d3d614; /* Bright color for links on hover */
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about img {
+    width: 300px;  /* Increase the size */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+#about p {
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section hover effect */
+section:hover {
+    background-color: #f4f9f1; /* Light background color for hover effect */
+}
+
+/* Add hover effect on nav items */
+nav ul li a:hover {
+    color: #fff;
+    background-color: #74746a; /* Highlight color for nav items */
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Style for the profile image */
+#about img {
+    width: 300px;  /* Set profile image size */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+}
+
+#about img:hover {
+    transform: scale(1.1);  /* Slightly enlarge on hover */
+}
